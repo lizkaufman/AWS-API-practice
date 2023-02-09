@@ -1,5 +1,5 @@
 const { query } = require("../index");
-const books = require("../../books-data");
+const books = [{ title: "Harry Potter", author: "JK Rowling" }];
 
 async function populateBooksTable() {
   for (let i = 0; i < books.length; i++) {
